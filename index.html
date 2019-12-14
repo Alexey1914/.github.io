@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Калькулятор</title>
+	<link rel="stylesheet" type="text/css" href="../styles/Stl.css">
+</head>
+<body>
+
+	<div id = "Calculator">
+		<p>Калькулятор</p>
+		<hr>
+		<p> Число 1 <input type="text" name="1" id = "one"></p>
+		<p> Число 2 <input type="text" name="2" id = "two"></p>
+		<button onclick= plus()>Сложить</button>
+		<button onclick= minus()>Вычесть</button>
+		<button onclick= mnozhit()>Умножить</button>
+		<button onclick= delenie()>Поделить</button>
+		<button onclick= ostatoc()>Найти остаток</button>
+		<button onclick= stepen()>Возвести в степень</button>
+		<button onclick= koren()>Извлечь корень</button>
+		<button onclick= factorial()> факториал</button>
+		<hr>
+		<p id = "Resalt">Результат:</p>
+	</div>
+	<script src = "../scripts/Kalculator.js"></script>
+</body>
+</html>
